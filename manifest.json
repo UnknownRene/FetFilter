@@ -1,0 +1,31 @@
+{
+    "manifest_version": 3,
+    "name": "FetFilter",
+    "version": "1.3",
+    "description": "Hides profiles in lists based on customizable gender/orientation (e.g., M, CD/TV) and role (e.g., Switch) values.",
+    "permissions": [
+        "storage"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "Open FetFilter Settings"
+    },
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "fetfilter@rene95.com",
+            "strict_min_version": "109.0"
+        }
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://fetlife.com/*",
+                "*://*.fetlife.com/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}
