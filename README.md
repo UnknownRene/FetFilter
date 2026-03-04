@@ -1,6 +1,6 @@
 # FetFilter
 
-FetFilter is a browser extension (addon) for Chromium-based browsers (like Google Chrome, Microsoft Edge, Brave, Opera) and Firefox.
+FetFilter is a browser extension (addon) for Chromium-based browsers (like Google Chrome, Microsoft Edge, Brave, Opera) and Firefox (not tested yet).
 
 It automatically hides profiles in list views on Fetlife based on specific values such as gender/orientation or role. This allows you to quickly declutter your feed and focus on what you're actually interested in.
 
