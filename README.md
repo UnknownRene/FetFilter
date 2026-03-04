@@ -25,6 +25,8 @@ Since this extension is not listed on the official Chrome Web Store yet, it need
 4. Turn on the switch for **Developer mode** in the top right corner (Arrow 1 in the image below).
 5. A new button called **"Load unpacked"** will appear in the top left area (Arrow 2). Click on it.
 
+<img width="1180" height="591" alt="download-addon" src="https://github.com/user-attachments/assets/bce9c6a1-5265-45a5-a8a0-67917ae59f6a" />
+
 <img width="1917" height="702" alt="install-addon-step1-and-step2" src="https://github.com/user-attachments/assets/839111cd-11be-4f9f-852b-c339e42da73d" />
 
 ### Step 2: Select the Folder
