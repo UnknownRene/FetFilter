@@ -1,6 +1,6 @@
 # FetFilter
 
-FetFilter is a browser extension (addon) for Chromium-based browsers (like Google Chrome, Microsoft Edge, Brave, Opera) and Firefox.
+FetFilter is a browser extension (addon) for Chromium-based browsers (like Google Chrome, Microsoft Edge, Brave, Opera) and Firefox (not tested yet).
 
 It automatically hides profiles in list views on Fetlife based on specific values such as gender/orientation or role. This allows you to quickly declutter your feed and focus on what you're actually interested in.
 
@@ -25,20 +25,25 @@ Since this extension is not listed on the official Chrome Web Store yet, it need
 4. Turn on the switch for **Developer mode** in the top right corner (Arrow 1 in the image below).
 5. A new button called **"Load unpacked"** will appear in the top left area (Arrow 2). Click on it.
 
-![Step 1: Developer Mode](https://user-images.githubusercontent.com/YourUsername/ImageLinkStep1.png) *(Note: Replace placeholder image links after uploading the repo to GitHub)*
+<img width="1180" height="591" alt="download-addon" src="https://github.com/user-attachments/assets/bce9c6a1-5265-45a5-a8a0-67917ae59f6a" />
+
+<img width="1917" height="702" alt="install-addon-step1-and-step2" src="https://github.com/user-attachments/assets/839111cd-11be-4f9f-852b-c339e42da73d" />
 
 ### Step 2: Select the Folder
 6. A standard Windows/Mac file selection window will pop up.
 7. Navigate to the location where you saved the downloaded folder (e.g., your Desktop).
 8. **Important:** Select the `FetFilter` folder with a single click, do **not** double-click to enter it. Then click on "Select Folder" at the bottom right (Arrow 3).
 
-![Step 2: Folder Selection](https://user-images.githubusercontent.com/YourUsername/ImageLinkStep2.png) *(Note: Replace placeholder image links after uploading the repo to GitHub)*
+<img width="1415" height="512" alt="install-addon-step3" src="https://github.com/user-attachments/assets/863f3cf3-30a8-4d64-b101-927ede33273b" />
 
 ### Step 3: Pin the Extension
 9. The extension is now installed! To access it quickly, click on the **Puzzle piece icon** in the top right corner of Chrome (Arrow 4).
 10. Look for "FetFilter" in the list and click on the **Pin icon** (Arrow 5). The extension icon (a grey 'F') will now be permanently visible in your toolbar.
 
-![Step 3: Pinning](https://user-images.githubusercontent.com/YourUsername/ImageLinkStep3.png) *(Note: Replace placeholder image links after uploading the repo to GitHub)*
+
+<img width="865" height="413" alt="install-addon-step4" src="https://github.com/user-attachments/assets/8ffd4268-33bf-4114-8148-b05b91f8eb36" />
+<img width="772" height="366" alt="install-adddon-step5" src="https://github.com/user-attachments/assets/c5b45c6e-d8d5-42bb-b994-b02cef065213" />
+
 
 ### Step 4: Configure Filters
 11. Click on the new "FetFilter" icon in your browser toolbar.
@@ -46,7 +51,7 @@ Since this extension is not listed on the official Chrome Web Store yet, it need
 13. Enter your desired values, separated by commas, and click on "Save Settings".
 14. Reload your main Fetlife page once – the filters are immediately active!
 
-![Step 4: Settings](https://user-images.githubusercontent.com/YourUsername/ImageLinkStep4.png) *(Note: Replace placeholder image links after uploading the repo to GitHub)*
+<img width="771" height="533" alt="install-addon-step6" src="https://github.com/user-attachments/assets/959cbe7d-dd6f-4ea3-a720-b7f171865056" />
 
 ---
 
