@@ -1,141 +1,159 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>FetFilter Setup</title>
     <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-            width: 320px;
-            padding: 16px;
-            background-color: #1a1b1e;
-            color: #e5e7eb;
-            margin: 0;
-            box-sizing: border-box;
-        }
+      body {
+        font-family:
+          -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+          Arial, sans-serif;
+        width: 320px;
+        padding: 16px;
+        background-color: #1a1b1e;
+        color: #e5e7eb;
+        margin: 0;
+        box-sizing: border-box;
+      }
 
-        h2 {
-            margin-top: 0;
-            font-size: 18px;
-            color: #ef4444;
-            /* Fetlife Red */
-            border-bottom: 1px solid #374151;
-            padding-bottom: 8px;
-        }
+      h2 {
+        margin-top: 0;
+        font-size: 18px;
+        color: #ef4444;
+        /* Fetlife Red */
+        border-bottom: 1px solid #374151;
+        padding-bottom: 8px;
+      }
 
-        p {
-            font-size: 13px;
-            color: #9ca3af;
-            line-height: 1.4;
-            margin-bottom: 16px;
-        }
+      p {
+        font-size: 13px;
+        color: #9ca3af;
+        line-height: 1.4;
+        margin-bottom: 16px;
+      }
 
-        .input-group {
-            margin-bottom: 16px;
-        }
+      .input-group {
+        margin-bottom: 16px;
+      }
 
-        label {
-            display: block;
-            font-size: 13px;
-            font-weight: 600;
-            margin-bottom: 6px;
-            color: #d1d5db;
-        }
+      label {
+        display: block;
+        font-size: 13px;
+        font-weight: 600;
+        margin-bottom: 6px;
+        color: #d1d5db;
+      }
 
-        input[type="text"] {
-            width: 100%;
-            box-sizing: border-box;
-            padding: 10px;
-            background-color: #111827;
-            border: 1px solid #4b5563;
-            border-radius: 4px;
-            color: #f3f4f6;
-            font-size: 14px;
-            transition: border-color 0.2s;
-        }
+      input[type="text"] {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px;
+        background-color: #111827;
+        border: 1px solid #4b5563;
+        border-radius: 4px;
+        color: #f3f4f6;
+        font-size: 14px;
+        transition: border-color 0.2s;
+      }
 
-        input[type="text"]:focus {
-            outline: none;
-            border-color: #ef4444;
-        }
+      input[type="text"]:focus {
+        outline: none;
+        border-color: #ef4444;
+      }
 
-        .help-text {
-            font-size: 11px;
-            color: #6b7280;
-            margin-top: 4px;
-        }
+      .help-text {
+        font-size: 11px;
+        color: #6b7280;
+        margin-top: 4px;
+      }
 
-        button {
-            width: 100%;
-            background-color: #dc2626;
-            color: white;
-            border: none;
-            padding: 10px;
-            border-radius: 4px;
-            font-size: 14px;
-            font-weight: bold;
-            cursor: pointer;
-            transition: background-color 0.2s;
-        }
+      button {
+        width: 100%;
+        background-color: #dc2626;
+        color: white;
+        border: none;
+        padding: 10px;
+        border-radius: 4px;
+        font-size: 14px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.2s;
+      }
 
-        button:hover {
-            background-color: #b91c1c;
-        }
+      button:hover {
+        background-color: #b91c1c;
+      }
 
-        #status {
-            margin-top: 12px;
-            font-size: 12px;
-            color: #10b981;
-            /* Success Green */
-            text-align: center;
-            min-height: 14px;
-        }
+      #status {
+        margin-top: 12px;
+        font-size: 12px;
+        color: #10b981;
+        /* Success Green */
+        text-align: center;
+        min-height: 14px;
+      }
 
-        .credits {
-            margin-top: 20px;
-            font-size: 11px;
-            color: #6b7280;
-            text-align: center;
-            border-top: 1px solid #374151;
-            padding-top: 12px;
-        }
+      .credits {
+        margin-top: 20px;
+        font-size: 11px;
+        color: #6b7280;
+        text-align: center;
+        border-top: 1px solid #374151;
+        padding-top: 12px;
+      }
 
-        .credits a {
-            color: #ef4444;
-            text-decoration: none;
-        }
+      .credits a {
+        color: #ef4444;
+        text-decoration: none;
+      }
 
-        .credits a:hover {
-            text-decoration: underline;
-        }
+      .credits a:hover {
+        text-decoration: underline;
+      }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <h2>FetFilter Settings</h2>
-    <p>Configure the values to hide unwanted profiles in lists. Separate multiple values with a comma.</p>
+    <p>
+      Configure the values to hide unwanted profiles in lists. Separate multiple
+      values with a comma.
+    </p>
 
     <div class="input-group">
-        <label for="genderInput">Gender / Orientation to hide:</label>
-        <input type="text" id="genderInput" placeholder="e.g. M, CD/TV, TV/TS" />
-        <div class="help-text">Matches the letter(s) right after the age (e.g. 52<strong>M</strong>)</div>
+      <label for="genderInput">Gender / Orientation to hide:</label>
+      <input type="text" id="genderInput" placeholder="e.g. M, CD/TV, TV/TS" />
+      <div class="help-text">
+        Matches the letter(s) right after the age (e.g. 52<strong>M</strong>)
+      </div>
     </div>
 
     <div class="input-group">
-        <label for="roleInput">Roles to hide:</label>
-        <input type="text" id="roleInput" placeholder="e.g. Switch, Rigger, sub" />
-        <div class="help-text">Matches the role right after the gender (e.g. 52M <strong>Rigger</strong>)</div>
+      <label for="roleInput">Roles to hide:</label>
+      <input
+        type="text"
+        id="roleInput"
+        placeholder="e.g. Switch, Rigger, sub"
+      />
+      <div class="help-text">
+        Matches the role right after the gender (e.g. 52M
+        <strong>Rigger</strong>)
+      </div>
     </div>
 
     <button id="saveBtn">Save Settings</button>
     <div id="status"></div>
 
     <div class="credits">
-        Credits: <a href="https://fetlife.com/Rene95" target="_blank" rel="noopener noreferrer">Rene95</a>
+      Credits:
+      <a
+        href="https://fetlife.com/PalePioneer"
+        target="_blank"
+        rel="noopener noreferrer"
+        >PalePioneer</a
+      >
     </div>
 
     <script src="popup.js"></script>
-</body>
-
+  </body>
 </html>
